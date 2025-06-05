@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
         gsap.set('.loader-text-reveal span', { y: '110%' });
         gsap.set('.loader-logo', { autoAlpha: 0, scale: 0.8 });
         gsap.set(['.main-header', '.hero-content'], { autoAlpha: 0 });
-        gsap.set(['.hero-title', '.hero-description', '.cta-button'], { y: 30, autoAlpha: 0 });
+        gsap.set(['.hero-title', '.hero-description', ], { y: 30, autoAlpha: 0 });
 
         const tl = gsap.timeline();
 
